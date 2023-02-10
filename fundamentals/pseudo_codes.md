@@ -130,11 +130,11 @@ else
 Start
 Input N
 i = N
-if i == 0, then End
-else
+if i >= 1
     print i
     i = i - 1
     goto step 4
+else End
 ```
 
 ### Printing 1 to N but only even numbers
